@@ -59,7 +59,7 @@ async def start_(client: Client, message: Message):
     await message.reply_sticker("CAACAgQAAxkBAAI8bmKIvgnlJyCrq9HIxSvCZCbm5CEjAAIaEAACpvFxHg-Z648-SCRWJAQ")
     await message.reply_text(
         f"""● **Salam 🙋🏻‍♀️ {message.from_user.mention()} **\n
-● **Mən səsli söhbətlərdə musiqi botam 🥰**
+● **Mən səsli söhbətlərdə musiqi səsləndirən botam 🥰**
 
 ● **Hər hansı bir problemlə qarşılaşsanız @BakuCity_Az qrupumuza gəlib yaza bilərsiniz!**
 
