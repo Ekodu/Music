@@ -11,7 +11,7 @@
         "mongodb",
         "pyrogram"
     ],
-    "website": "https://t.me/BakuCity_Az",
+    "website": "https://t.me/EkoBlogs",
     "repository": "https://github.com/Ekodu/Music",
     "success_url": "https://t.me/Nevrozdu",
     "env": {
