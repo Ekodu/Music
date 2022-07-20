@@ -21,7 +21,7 @@ async def cbstart(_, query: CallbackQuery):
         f"""● **Salam [{query.message.chat.first_name}](tg://user?id={query.message.chat.id}) **\n
 ● **Mən səsli söhbətlərdə musiqi botam 🥰**
 
-● **Hər hansı problemlə qarşılaşsanız @AOBTEAM qrupumuza gəlib bildirə bilərsiniz!**
+● **Hər hansı problemlə qarşılaşsanız @BakuCity_Az qrupumuza gəlib bildirə bilərsiniz!**
 
 ● **📚 Əmrlər butonuna klikləyib bütün əmrləri öyrənin ⬇️**""",
         reply_markup=InlineKeyboardMarkup(
@@ -34,7 +34,7 @@ async def cbstart(_, query: CallbackQuery):
                 ],
                 [
                     InlineKeyboardButton("📚 Əmrlər", callback_data="cbcmds"),
-                    InlineKeyboardButton("😍 Sahibəm", url=f"https://t.me/{OWNER_NAME}"),
+                    InlineKeyboardButton("😍 Sahibim", url=f"https://t.me/{OWNER_NAME}"),
                 ],
                 [
                     InlineKeyboardButton(
@@ -85,7 +85,7 @@ async def cbcmds(_, query: CallbackQuery):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("📚 Sahibənin əmrləri ", callback_data="cbsudo"),
+                    InlineKeyboardButton("📚 Sahibimin əmrləri ", callback_data="cbsudo"),
                     InlineKeyboardButton("📚 Əsas əmrlər", callback_data="cbbasic")
                 ],[
                     InlineKeyboardButton("🔙  Geri  🔙", callback_data="cbstart")
@@ -160,9 +160,9 @@ Məlumat: Bu əmrləri hərkəs istifadə edə bilər ☑️
 async def cbsudo(_, query: CallbackQuery):
     await query.answer("sudo commands")
     await query.edit_message_text(
-        f"""📚 **Sahibənin əmrləri :
+        f"""📚 **Sahibimin əmrləri :
 
-Qeyd: Bu əmrləri sadəcə bot sahibəsi istifadə edə bilər!
+Qeyd: Bu əmrləri sadəcə bot sahibi istifadə edə bilər!
 
 » /broadcast => Yayım etmək.
 » /gban => İstifadəçi qadağan etmək.
